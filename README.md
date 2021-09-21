@@ -7,6 +7,7 @@ Emaily verifies the user and takes the email addresses of the user's consumer an
 
 - React 
 - Redux 
+- Tailwind.css
 - MongoDB
 - mongoose
 - Express.js
