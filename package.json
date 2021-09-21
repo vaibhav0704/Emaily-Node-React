@@ -1,0 +1,38 @@
+{
+  "name": "email-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "14.16.0",
+    "npm": "7.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0",
+    "mongoose": "^5.12.10",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "sendgrid": "^5.2.3",
+    "stripe": "^8.154.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.4"
+  }
+}
