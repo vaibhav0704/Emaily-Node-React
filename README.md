@@ -1,7 +1,7 @@
 # About the Project Emaily
 
-This is a basic Email-Feedback application where the user who already sells a product/service of their own wants a feedback from their clients.\ 
-Emaily verifies the user and takes the email addresses of the user's consumer and sends them an email seeking the feedback about the service.\ 
+This is a basic Email-Feedback application where the user who already sells a product/service of their own wants a feedback from their clients.
+Emaily verifies the user and takes the email addresses of the user's consumer and sends them an email seeking the feedback about the service.
 
 ## Libraries/Services Used
 
